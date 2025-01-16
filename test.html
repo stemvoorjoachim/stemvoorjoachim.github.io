@@ -20,7 +20,7 @@
   font-family: "Signika", serif;
 }
 
-.active, .accordion:hover {
+.active_1, .accordion:hover {
   background-color: 20a7ae;
 }
 
@@ -31,7 +31,7 @@
   overflow: hidden;
   font-family: "Signika", serif;
 }
-.block_1 {
+.active_1 {
   padding: 0 18px;
   display: none;
   background-color: 20ae96;
@@ -53,7 +53,7 @@ var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
+    this.classList.toggle("active_1");
     var panel_1 = this.nextElementSibling;
     if (panel_1.style.display === "block") {
       panel_1.style.display = "none";
