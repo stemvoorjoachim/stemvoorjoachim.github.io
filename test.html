@@ -81,7 +81,7 @@ for (i = 0; i < acc.length; i++) {
   background-color: #ccc; 
 }
 
-.panel {
+.panel_2 {
   padding: 0 18px;
   display: none;
   background-color: white;
@@ -92,7 +92,7 @@ for (i = 0; i < acc.length; i++) {
 </head>
 <body>
 <button class="accordion_2">Standpunten</button>
-<div class="panel">
+<div class="panel_2">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 
@@ -103,11 +103,11 @@ var i;
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
+    var panel_2 = this.nextElementSibling;
+    if (panel_2.style.display === "block") {
+      panel_2.style.display = "none";
     } else {
-      panel.style.display = "block";
+      panel_2.style.display = "block";
     }
   });
 }
@@ -137,7 +137,7 @@ for (i = 0; i < acc.length; i++) {
   background-color: #ccc; 
 }
 
-.panel {
+.panel_3 {
   padding: 0 18px;
   display: none;
   background-color: white;
@@ -147,7 +147,7 @@ for (i = 0; i < acc.length; i++) {
 </head>
 <body>
 <button class="accordion_3">Verandering</button>
-<div class="panel">
+<div class="panel_3">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 
@@ -158,11 +158,11 @@ var i;
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
+    var panel_3 = this.nextElementSibling;
+    if (panel_3.style.display === "block") {
+      panel_3.style.display = "none";
     } else {
-      panel.style.display = "block";
+      panel_3.style.display = "block";
     }
   });
 }
