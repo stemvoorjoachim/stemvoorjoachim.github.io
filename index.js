@@ -4,6 +4,6 @@ let standpunten = document.getElementById("standpunt");
 let verandering = document.getElementById("verandering");
 let tekst = document.getElementById("stem")
 
-function veranderTekst() {
-  document.body.style.backgroundColor = "green";
-}
+//function veranderTekst() {
+//  document.body.style.backgroundColor = "green";
+//}
